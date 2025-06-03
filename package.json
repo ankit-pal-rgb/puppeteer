@@ -1,9 +1,20 @@
 {
+  "name": "puppeteer-docker",
+  "version": "1.0.0",
+  "description": "A Lambda-ready Puppeteer service using chrome-aws-lambda and puppeteer-core.",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node handler.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
+    "@sparticuz/chromium": "^122.0.0",
     "axios": "^1.9.0",
     "cheerio": "^1.0.0",
     "node-vibrant": "^4.0.3",
-    "puppeteer": "^24.9.0",
+    "puppeteer-core": "^22.5.0",
     "sharp": "^0.34.2"
   }
 }
